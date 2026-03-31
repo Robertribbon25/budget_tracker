@@ -1,17 +1,15 @@
 # budget_tracker
-# 💰 Budget Tracker Application
+# Budget Tracker Application
 
-## 📌 Overview
+## Overview
 
 The **Budget Tracker** is a full-stack web application designed to help users manage their personal finances by tracking income and expenses. It provides a simple and intuitive interface to monitor financial activity, calculate balances, and analyze spending habits.
 
 This project demonstrates practical implementation of modern web development technologies including frontend, backend, and database integration.
 
----
 
-## 🚀 Features
 
-### ✅ Core Features
+###  Core Features
 
 * Add income transactions (amount, source, date)
 * Add expense transactions (amount, category, date)
@@ -23,7 +21,7 @@ This project demonstrates practical implementation of modern web development tec
   * Total Expenses
   * Remaining Balance
 
-### 🌟 Advanced Features (Optional / Future Improvements)
+###  Advanced Features (Optional / Future Improvements)
 
 * User authentication (Login/Register)
 * Filter transactions by date or category
@@ -31,9 +29,9 @@ This project demonstrates practical implementation of modern web development tec
 * Monthly financial reports
 * Responsive design for mobile and tablet devices
 
----
 
-## 🏗️ Tech Stack
+
+##  Tech Stack
 
 ### Frontend
 
@@ -49,7 +47,7 @@ This project demonstrates practical implementation of modern web development tec
 
 * MongoDB (Mongoose)
 
----
+
 
 ## 🧠 System Architecture
 
@@ -102,7 +100,7 @@ The frontend communicates with the backend via REST APIs. The backend handles bu
 
 ---
 
-## 🎨 UI Structure
+##  UI Structure
 
 * **Dashboard**
 
@@ -141,7 +139,7 @@ cd frontend
 npm install
 ```
 
----
+
 
 ### 3. Environment Variables
 
@@ -152,7 +150,7 @@ MONGO_URI=your_mongodb_connection_string
 PORT=5000
 ```
 
----
+
 
 ### 4. Run the Application
 
@@ -168,7 +166,7 @@ npm run dev
 npm start
 ```
 
----
+
 
 ## 🧮 Business Logic
 
@@ -176,7 +174,7 @@ npm start
 * **Total Expenses** = Sum of all transactions where type = "expense"
 * **Balance** = Income − Expenses
 
----
+
 
 ## 🧪 Testing
 
@@ -187,7 +185,7 @@ You can test API endpoints using:
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 budget-tracker/
@@ -208,7 +206,7 @@ budget-tracker/
 
 ---
 
-## 🔒 Best Practices
+##Best Practices
 
 * Input validation for all API requests
 * Proper error handling
@@ -218,7 +216,7 @@ budget-tracker/
 
 ---
 
-## 📈 Future Improvements
+##  Future Improvements
 
 * Add authentication & authorization
 * Implement charts (e.g., Chart.js)
@@ -228,23 +226,23 @@ budget-tracker/
 
 
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to fork this repository and submit a pull request.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
 
 
-## 👨‍💻 Author
+## Author
 
 Developed by robertndayiragije
 
 ---
 
-## 💡 Acknowledgements
+##  Acknowledgements
 
 * Open-source community
 * Online learning resources
