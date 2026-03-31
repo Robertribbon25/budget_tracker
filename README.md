@@ -89,7 +89,7 @@ The frontend communicates with the backend via REST APIs. The backend handles bu
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint          | Description                             |
 | ------ | ----------------- | --------------------------------------- |
