@@ -49,7 +49,7 @@ This project demonstrates practical implementation of modern web development tec
 
 
 
-## 🧠 System Architecture
+##  System Architecture
 
 ```
 Client (React Frontend)
@@ -63,7 +63,7 @@ The frontend communicates with the backend via REST APIs. The backend handles bu
 
 ---
 
-## 🗄️ Database Schema
+## Database Schema
 
 ### Transaction Model
 
@@ -114,7 +114,7 @@ The frontend communicates with the backend via REST APIs. The backend handles bu
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone Repository
 
@@ -168,7 +168,7 @@ npm start
 
 
 
-## 🧮 Business Logic
+##  Business Logic
 
 * **Total Income** = Sum of all transactions where type = "income"
 * **Total Expenses** = Sum of all transactions where type = "expense"
@@ -176,35 +176,42 @@ npm start
 
 
 
-## 🧪 Testing
+## Testing
 
 You can test API endpoints using:
 
 * Postman
 * Thunder Client (VS Code extension)
 
----
+
 
 ## Folder Structure
-
-```
 budget-tracker/
-│
 ├── backend/
 │   ├── models/
+│   │   ├── Transaction.js
+│   │   └── User.js
 │   ├── routes/
-│   ├── controllers/
-│   ├── config/
-│   └── server.js
-│
-├── frontend/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   └── App.js
-```
+│   │   └── transactions.js
+│   ├── middleware/
+│   │   └── validate.js
+│   ├── server.js
+│   └── .env
+└── frontend/
+    ├── src/
+    │   ├── components/
+    │   │   ├── Dashboard.jsx
+    │   │   ├── AddTransactionForm.jsx
+    │   │   └── TransactionList.jsx
+    │   ├── api/
+    │   │   └── transactions.js
+    │   ├── App.jsx
+    │   └── main.jsx
+    └── index.html
 
----
+
+
+
 
 ##Best Practices
 
@@ -214,7 +221,6 @@ budget-tracker/
 * Follow clean code structure
 * Separate concerns (routes, controllers, models)
 
----
 
 ##  Future Improvements
 
